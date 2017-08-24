@@ -1,0 +1,103 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+%\newcommand\date[1]{\textit{#1}}
+%\def\dates#1{\datesaux#1\stop}
+%\def\datesaux#1-#2\stop{
+%  \date{#1}\thinspace--\thinspace\date{#2}}
+
+\name{Andrew Negri} % Your name
+\address{7017 S. Priest Dr. \#3111 \\ Tempe, AZ 85283} % Your address
+\address{(949)~$\cdot$~878~$\cdot$~2232 \\ aenegri@asu.edu} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Arizona State University} \hfill {\em Expected May 2018} \\
+B.S. in Software Engineering, Minor in Business \\
+Barrett Honors College \smallskip \\
+Overall GPA: 3.72 \textit{Dean's List}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EMPLOYMENT SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Employment}
+
+\begin{rSubsection}{GoDaddy}{May 2017 -- August 2017}{Software Development Intern}{Gilbert, AZ}
+\item Created a plugin in Python that captured the web access data of over 600,000 customer sites for hadoop processing in real time. Developed using CI/CD with Jenkins and deployed using Puppet.
+\item Discovered over 1,000,000 customer data files that had not been deleted in the account deletion workflow and wrote a Bash script to manually remove all of them.
+\item Built and deployed 5 proxy servers by following an extensive build process with Puppet and other command line tools.
+\end{rSubsection}
+
+\begin{rSubsection}{Arizona State University}{August 2015 -- December 2015}{ASU 101 Section Leader}{Tempe, AZ}
+\item Led two sections of an introductory course for the Software Engineering program at ASU. Each class section met once a week for 50 minutes.
+\item Presented on software engineering related topics such as professional ethics and career opportunities.
+\item Prepared lesson plans and content for each class session in conjunction with faculty and graduate students.
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects}
+
+\begin{rSubsection}{Drill Keeper Android App}{February 2016 -- Present}{}{}
+\item Developed an application that serves as a digital drill book for use in marching bands. By entering data for a marching show, a performer can easily reference their coordinates and receive navigation instructions between each set.
+\item Crafted an intuitive user interface that adheres to material design guidelines with XML using Android UI components.
+\item Saved and passed data by serializing objects with JSON via the Gson library.
+\item Released on the Google Play store and updated regularly. Used user feedback to find bugs and influence future development.
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Programming Languages}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Proficient & Java, C++, Python, Bash, LaTex, HTML, CSS \\
+Familiar & JavaScript, Verilog, MIPS Assembly
+\end{tabular}
+
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
